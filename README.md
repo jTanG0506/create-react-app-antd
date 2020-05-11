@@ -27,6 +27,9 @@ The default Ant Design theme can be modified using the Less file at `./src/style
 
 The full list of Less variables can be found [here](https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less).
 
+#### 🌚 Dark Theme
+To use the dark theme, change `@import '~antd/dist/antd.less';` to `@import "~antd/dist/antd.dark.less";`.
+
 ## 🛠 Available Scripts
 
 In the project directory, you can run:

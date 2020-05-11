@@ -18,8 +18,11 @@
     "react-scripts": "3.4.1",
     "typescript": "^3.8.3"
   },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
   "scripts": {
-    "start": "craco start",
+    "start": "nodemon -w ./src/styles/antOverrides.less -w craco.config.js --exec 'craco start'",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
